@@ -56,9 +56,6 @@ if(password !="" && password == confirmPassword) {
  }
 
 
-
-
-
   return (
   <>
     <div className='card'>

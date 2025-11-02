@@ -1,12 +1,9 @@
-import Card from "../Card"
 import "./Products.css"
 
-const Products = () => {
+const Products = ({result}) => {
   return (
     <div className="card-container"> 
-      <Card />
-      <Card />
-      <Card />
+      {result}
     </div>
   )
 }
